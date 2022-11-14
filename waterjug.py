@@ -17,8 +17,7 @@ def waterJugSolver(cap1, cap2):
   
     return (waterJugSolver(0, cap2) or
         waterJugSolver(cap1, 0) or
-        wate4
-        rJugSolver(jug1, cap2) or
+        waterJugSolver(jug1, cap2) or
         waterJugSolver(cap1, jug2) or
         waterJugSolver(cap1 + min(cap2, (jug1-cap1)),
         cap2 - min(cap2, (jug1-cap1))) or
